@@ -1,0 +1,20 @@
+
+# mine-android
+
+/mine-android/*.iml
+/mine-android/.gradle
+/mine-android/local.properties
+/mine-android/.idea
+/mine-android/.idea/caches
+/mine-android/.idea/libraries
+/mine-android/.idea/modules.xml
+/mine-android/.idea/workspace.xml
+/mine-android/.idea/navEditor.xml
+/mine-android/.idea/assetWizardSettings.xml
+.DS_Store
+/mine-android/build
+/mine-android/captures
+/mine-android.externalNativeBuild
+/mine-android.cxx
+/mine-android/build
+
