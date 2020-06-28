@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">mine-android</string>
+    <string name="app_name">MINE</string>
+    <string name="change">change</string>
 </resources>

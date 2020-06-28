@@ -1,6 +1,8 @@
 
-# mine-android
+*Test.java
+*/*Test.java
 
+# mine-android
 /mine-android/*.iml
 /mine-android/.gradle
 /mine-android/local.properties
@@ -17,4 +19,5 @@
 /mine-android.externalNativeBuild
 /mine-android.cxx
 /mine-android/build
-
+/mine-android/app/src/test
+/mine-android/app/src/androidTest

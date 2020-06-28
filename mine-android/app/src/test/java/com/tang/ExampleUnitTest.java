@@ -1,4 +1,4 @@
-package tang.com;
+package com.tang;
 
 import org.junit.Test;
 

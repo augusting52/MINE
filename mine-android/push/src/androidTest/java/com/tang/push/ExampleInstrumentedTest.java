@@ -1,6 +1,7 @@
-package tang.com;
+package com.tang.push;
 
 import android.content.Context;
+
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
@@ -21,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("tang.com", appContext.getPackageName());
+        assertEquals("com.tang.push.test", appContext.getPackageName());
     }
 }
