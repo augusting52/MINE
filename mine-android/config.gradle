@@ -1,0 +1,22 @@
+ext {
+
+    conf = [
+            compileSdkVersion: 28,
+            buildToolsVersion: "29.0.3",
+            applicationId: "com.tang",
+            minSdkVersion: 21,
+            targetSdkVersion: 26,
+            versionCode: 1,
+            versionName: "1.0",
+    ]
+
+    // dependencies version
+    version = [
+
+    ]
+
+    // dependencies
+    deps = [
+
+    ]
+}
