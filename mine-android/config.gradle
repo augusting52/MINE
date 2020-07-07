@@ -3,20 +3,38 @@ ext {
     conf = [
             compileSdkVersion: 28,
             buildToolsVersion: "29.0.3",
-            applicationId: "com.tang",
-            minSdkVersion: 21,
-            targetSdkVersion: 26,
-            versionCode: 1,
-            versionName: "1.0",
+            applicationId    : "com.tang",
+            minSdkVersion    : 21,
+            targetSdkVersion : 26,
+            versionCode      : 1,
+            versionName      : "1.0",
     ]
 
     // dependencies version
-    version = [
+    ver = [
+            junitVersion: "4.12",
+            runnerVersion: "1.2.0",
+            espressoVersion: "3.2.0",
 
+            appcompatVersion       : "1.1.0",
+            constraintlayoutVersion: "1.1.3",
+            roomVersion            : "2.2.0-rc01",
     ]
 
     // dependencies
     deps = [
+            appcompat       : "androidx.appcompat:appcompat:${ver.appcompatVersion}",
+            junit       : "junit:junit:${ver.junitVersion}",
+            runner       : "androidx.test:runner:${ver.runnerVersion}",
+            espresso       : "androidx.test.espresso:espresso-core:${ver.espressoVersion}",
+
+            constraintlayout: "androidx.constraintlayout:constraintlayout:${ver.constraintlayoutVersion}",
+
+            roomRuntime     : "androidx.room:room-runtime:${ver.roomVersion}",
+            roomCompiler    : "androidx.room:room-compiler:${ver.roomVersion}",
+            roomRxjava2     : "androidx.room:room-rxjava2:${ver.roomVersion}",
+            roomTesting     : "androidx.room:room-testing:${ver.roomVersion}",
+
 
     ]
 }
