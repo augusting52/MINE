@@ -12,21 +12,33 @@ ext {
 
     // dependencies version
     ver = [
-            junitVersion: "4.12",
-            runnerVersion: "1.2.0",
-            espressoVersion: "3.2.0",
+            junitVersion           : "4.12",
+            testExtJunitVersion    : "1.1.1",
+            runnerVersion          : "1.2.0",
+            espressoVersion        : "3.2.0",
 
+            // android tool
             appcompatVersion       : "1.1.0",
             constraintlayoutVersion: "1.1.3",
+
+            // android architecture
             roomVersion            : "2.2.0-rc01",
+            navigationVersion      : "2.2.0",
+            workVersion            : "2.1.0",
+            lifecycleVersion       : "2.2.0-alpha02",
+
+            // third party
+            glideVersion           : "4.10.0",
+
     ]
 
     // dependencies
     deps = [
+            // Testing dependencies
             appcompat       : "androidx.appcompat:appcompat:${ver.appcompatVersion}",
-            junit       : "junit:junit:${ver.junitVersion}",
-            runner       : "androidx.test:runner:${ver.runnerVersion}",
-            espresso       : "androidx.test.espresso:espresso-core:${ver.espressoVersion}",
+            junit           : "junit:junit:${ver.junitVersion}",
+            runner          : "androidx.test:runner:${ver.runnerVersion}",
+            espresso        : "androidx.test.espresso:espresso-core:${ver.espressoVersion}",
 
             constraintlayout: "androidx.constraintlayout:constraintlayout:${ver.constraintlayoutVersion}",
 
@@ -34,7 +46,5 @@ ext {
             roomCompiler    : "androidx.room:room-compiler:${ver.roomVersion}",
             roomRxjava2     : "androidx.room:room-rxjava2:${ver.roomVersion}",
             roomTesting     : "androidx.room:room-testing:${ver.roomVersion}",
-
-
     ]
 }

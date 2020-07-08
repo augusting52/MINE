@@ -28,6 +28,8 @@ dependencies {
 
     implementation "androidx.appcompat:appcompat:${ver.appcompatVersion}"
     testImplementation "junit:junit:${ver.junitVersion}"
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation "androidx.test.ext:junit:${ver.testExtJunitVersion}"
     androidTestImplementation "androidx.test.espresso:espresso-core:${ver.espressoVersion}"
+
+    implementation "com.github.bumptech.glide:glide:$ver.glideVersion"
 }
