@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion conf.compileSdkVersion
@@ -31,6 +33,9 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:${ver.testExtJunitVersion}"
     androidTestImplementation "androidx.test.espresso:espresso-core:${ver.espressoVersion}"
 
+    implementation "androidx.core:core-ktx:${ver.ktxVersion}"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${ver.kotlinVersion}"
+
     // navigation
     implementation "androidx.navigation:navigation-fragment:$ver.navigationVersion"
     implementation "androidx.navigation:navigation-ui:$ver.navigationVersion"
@@ -42,4 +47,6 @@ dependencies {
 
     // work
     implementation "androidx.work:work-runtime:$ver.workVersion"
+
+
 }

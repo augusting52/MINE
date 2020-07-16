@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion conf.compileSdkVersion
@@ -30,6 +32,9 @@ dependencies {
     testImplementation "junit:junit:${ver.junitVersion}"
     androidTestImplementation "androidx.test.ext:junit:${ver.testExtJunitVersion}"
     androidTestImplementation "androidx.test.espresso:espresso-core:${ver.espressoVersion}"
+
+    implementation "androidx.core:core-ktx:${ver.ktxVersion}"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${ver.kotlinVersion}"
 
     implementation "com.github.bumptech.glide:glide:$ver.glideVersion"
 }

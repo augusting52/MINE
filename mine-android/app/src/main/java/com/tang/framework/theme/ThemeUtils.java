@@ -1,7 +1,5 @@
 package com.tang.framework.theme;
 
-import com.tang.framework.MineApplication;
-
 /**
  * Created by @author Alan on 2019-10-12.
  */
