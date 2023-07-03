@@ -1,7 +1,5 @@
 package com.tang.framework.manager;
 
-import lombok.Getter;
-
 /**
  * Copyright(c) 2017. LiBing Inc. All rights reserved.
  * <p>
@@ -9,7 +7,6 @@ import lombok.Getter;
  */
 public class RuntimeDataManager {
 
-    @Getter
     private static RuntimeDataManager sRuntimeDataManager;
 
     public static void init() {

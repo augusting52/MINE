@@ -33,6 +33,8 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:${ver.testExtJunitVersion}"
     androidTestImplementation "androidx.test.espresso:espresso-core:${ver.espressoVersion}"
 
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:${ver.leakCannaryVersion}"
+
     implementation "androidx.core:core-ktx:${ver.ktxVersion}"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${ver.kotlinVersion}"
 }

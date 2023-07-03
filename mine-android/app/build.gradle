@@ -13,7 +13,7 @@ android {
         versionCode conf.versionCode
         versionName conf.versionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        // lombok
+
         javaCompileOptions {
             annotationProcessorOptions {
                 includeCompileClasspath = true
